@@ -45,7 +45,7 @@ keyboard.keymap = [
     ]
 ]
 
-#Defning the combos
+#Defining the combos
 combos.combos = [
     Chord((25, 7), KC.RGB_MOD),
     Chord((25, 0), KC.RGB_TOG),
