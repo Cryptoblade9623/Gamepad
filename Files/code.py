@@ -1,13 +1,17 @@
 print("Starting")
-
 import board
+
 from kmk.kmk_keyboard import KMKKeyboard
-from kmk.keys import KC
+from kmk.keys import KC, make_key
 from kmk.scanners import DiodeOrientation
 from kmk.modules.encoder import EncoderHandler
 from kmk.extensions.rgb import RGB
 from kmk.extensions.rgb import AnimationModes
+from kmk.modules.combos import Combos, Chord, Sequence
+
 keyboard = KMKKeyboard()
+combos = Combos()
+KMKKeyboard.modules.append(combos)
 
 #Defining MCU GPIO pins
 COL1 = board.IO6
@@ -39,6 +43,12 @@ keyboard.keymap = [
      KC.BSLASH,KC.Z,KC.X,KC.C,KC.V,KC.NO,
      KC.LSHIFT,KC.LCTRL,KC.LALT,KC.NO ,KC.SPACE,KC.NO,
     ]
+]
+
+#Defning the combos
+combos.combos = [
+    Chord((25, 7), KC.RGB_MOD),
+    Chord((25, 0), KC.RGB_TOG),
 ]
 
 #Defining encoder functions
