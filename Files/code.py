@@ -32,7 +32,7 @@ keyboard.row_pins = (ROW1,ROW2,ROW3,ROW4,ROW5)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 #Defining the keymap
-keyboard.keymaps = [
+keyboard.keymap = [
     [KC.ESC, KC.KP_1, KC.KP_2,KC.KP_3,KC.KP_4,KC.Y,
      KC.TAB, KC.Q, KC.W,KC.E,KC.R,KC.T,
      KC.CAPSLOCK,KC.A,KC.S,KC.D,KC.F,KC.B,
