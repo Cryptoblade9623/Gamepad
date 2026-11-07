@@ -4,6 +4,7 @@ It has per-key RGB, and you can cycle through different animations with some com
 It has a rotary encoder for volume control, and to mute something.
 I am reusing many of the parts that I already have, so I will not include them in the BOM.
 It is controlled and coded with CircuitPython with KMK and a Waveshare RP2040 Zero.
+The files in the Files folder contain everything you need to make or edit it, like KiCad and Fusion 360 source files, Gerbers and firmware.
 <img width="1241" height="752" alt="image" src="https://github.com/user-attachments/assets/65b2993a-dff5-4f5e-91f2-9d930ae6c4a5" />
 <img width="1247" height="805" alt="image" src="https://github.com/user-attachments/assets/ad7a9f2e-2de7-4883-8b83-14b8efab8b4f" />
 <img width="1175" height="859" alt="image" src="https://github.com/user-attachments/assets/f51820a6-b137-4dc2-a27c-c99334b44845" />
