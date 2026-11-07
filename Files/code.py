@@ -47,8 +47,8 @@ keyboard.keymap = [
 
 #Defining the combos
 combos.combos = [
-    Chord((25, 7), KC.RGB_MOD),
-    Chord((25, 0), KC.RGB_TOG),
+    Chord((KC.LSHIFT, KC.TAB), KC.RGB_MOD),
+    Chord((KC.LSHIFT, KC.ESC), KC.RGB_TOG),
 ]
 
 #Defining encoder functions
